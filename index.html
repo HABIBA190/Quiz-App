@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+ <div class="quiz-container">
+  
+  <h1>Quiz App</h1>
+  <div id="progressbar">
+  <div id="progress">
+    Question 15 out of 15
+  </div>
+</div>
+  <div id="quiz">
+    <div id="question"></div>
+    <div id="option"></div>
+    <button id="nextBtn">Next</button>
+  </div>
+</div>
+
+
+
+
+<div id="celebration" style="display:none;">
+  <h2>🎉 Congratulations! 🎉</h2>
+  <p id="finalScore"></p>
+  <button id="restartBtn">Restart Quiz</button>
+</div>
+
+
+<div id="failScreen" style="display:none;">
+  <h2>😢 Better Luck Next Time!</h2>
+  <p id="failScore"></p>
+  <button id="retryBtn">Try Again</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
